@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
+  <diagram name="Diagrama Academia" id="gRlBTtHLhHdaN7cIsA00">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Inicio&#xa;Alta de Academia" vertex="1">
+          <mxGeometry height="60" width="180" x="360" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Página de Inicio&#xa;Login / Registro" vertex="1">
+          <mxGeometry height="100" width="200" x="350" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Administración&#xa;Gestión Administrativa" vertex="1">
+          <mxGeometry height="80" width="220" x="80" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Profesorado&#xa;Gestión de Profesores" vertex="1">
+          <mxGeometry height="80" width="220" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Alumnos" vertex="1">
+          <mxGeometry height="60" width="200" x="620" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿Alumno mayor de edad?" vertex="1">
+          <mxGeometry height="100" width="220" x="610" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Alumnos Adultos&#xa;Gestión de Alumnos Adultos" vertex="1">
+          <mxGeometry height="80" width="260" x="430" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Alumnos Menores&#xa;No pueden logearse" vertex="1">
+          <mxGeometry height="80" width="260" x="820" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Tutores Legales&#xa;Gestión de Tutores&#xa;Login de tutores" vertex="1">
+          <mxGeometry height="100" width="260" x="820" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-10" edge="1" parent="1" source="XAbUdSyG6IHiCDfhLpRr-1" style="endArrow=block;html=1;" target="XAbUdSyG6IHiCDfhLpRr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-11" edge="1" parent="1" source="XAbUdSyG6IHiCDfhLpRr-2" style="endArrow=block;html=1;" target="XAbUdSyG6IHiCDfhLpRr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-12" edge="1" parent="1" source="XAbUdSyG6IHiCDfhLpRr-2" style="endArrow=block;html=1;" target="XAbUdSyG6IHiCDfhLpRr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-13" edge="1" parent="1" source="XAbUdSyG6IHiCDfhLpRr-2" style="endArrow=block;html=1;" target="XAbUdSyG6IHiCDfhLpRr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-14" edge="1" parent="1" source="XAbUdSyG6IHiCDfhLpRr-5" style="endArrow=block;html=1;" target="XAbUdSyG6IHiCDfhLpRr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-15" edge="1" parent="1" source="XAbUdSyG6IHiCDfhLpRr-6" style="endArrow=block;html=1;" target="XAbUdSyG6IHiCDfhLpRr-7" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-16" edge="1" parent="1" source="XAbUdSyG6IHiCDfhLpRr-6" style="endArrow=block;html=1;" target="XAbUdSyG6IHiCDfhLpRr-8" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAbUdSyG6IHiCDfhLpRr-17" edge="1" parent="1" source="XAbUdSyG6IHiCDfhLpRr-8" style="endArrow=block;html=1;" target="XAbUdSyG6IHiCDfhLpRr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
